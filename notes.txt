@@ -1,0 +1,22 @@
+Note on Similarities between Cat, Monkey, and Banana:
+
+In the results obtained from the 'en_core_web_md' model, we can see the following interesting similarities between the words "cat," "monkey," and "banana":
+
+The similarity between "cat" and "monkey" is approximately 0.593, indicating a moderate semantic similarity. This aligns with the idea that both "cat" and "monkey" are animals, which share some common features.
+The similarity between "banana" and "monkey" is around 0.404, suggesting a weaker semantic connection. However, it is still higher than the similarity between "banana" and "cat" (0.224). This could imply that the model recognizes some contextual relationship between "monkey" and "banana," possibly related to the concept of monkeys eating bananas.
+Example of Our Own:
+
+Let's add the word "computer" to the mix and check the similarity with "cat," "monkey," and "banana." The word "computer" is unrelated to the others and should have lower similarities with all three.
+
+Similarity between "computer" and "cat": Low similarity (e.g., no semantic relationship between a computer and a cat).
+Similarity between "computer" and "monkey": Low similarity (e.g., no semantic relationship between a computer and a monkey).
+Similarity between "computer" and "banana": Low similarity (e.g., no semantic relationship between a computer and a banana).
+Note on Differences between 'en_core_web_md' and 'en_core_web_sm':
+
+After running the example file with the simpler language model 'en_core_web_sm', we noticed some differences compared to the 'en_core_web_md' model.
+
+The similarity scores obtained from 'en_core_web_sm' seem to be slightly lower compared to 'en_core_web_md'. This is expected as 'en_core_web_sm' is a smaller model and may not capture semantic relationships as effectively.
+
+Despite the difference in accuracy, the general patterns in similarity remain consistent. For example, "cat" and "monkey" still have a higher similarity than "cat" and "banana," and "banana" has lower similarities with both "cat" and "monkey."
+
+'en_core_web_sm' performs well for simple tasks like comparing individual words or short sentences, but it may not be as effective for more complex NLP tasks that require deeper understanding and context.
